@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".classes.SignUpFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter your Details"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:padding="5dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/nameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:textSize="16sp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="20dp"
+        android:hint="Enter your Name"
+        android:inputType="text"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:background="@drawable/curved_border_down"
+        android:accessibilityPaneTitle="Enter Your Name"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/ageEditText"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:textSize="16sp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="20dp"
+        android:hint="Enter your age"
+        android:inputType="number"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:background="@drawable/curved_border_down"
+        android:accessibilityPaneTitle="Enter Your age"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/mobileNumberEditText"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:textSize="16sp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="20dp"
+        android:hint="Enter your Mobile Number"
+        android:inputType="number"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:background="@drawable/curved_border_down"
+        android:accessibilityPaneTitle="Enter Your Mobile Number"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:textSize="16sp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="20dp"
+        android:hint="Enter your Password"
+        android:inputType="textPassword"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:background="@drawable/curved_border_down"
+        android:accessibilityPaneTitle="Enter Your Email"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/confirmPasswordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:textSize="16sp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="20dp"
+        android:hint="Confirm Your Password"
+        android:inputType="textPassword"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:background="@drawable/curved_border_down"
+        android:accessibilityPaneTitle="Enter Your Email"/>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="25dp"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:background="@drawable/curved_border_all"
+        android:layout_marginEnd="25dp">
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:padding="15dp"
+            android:layout_marginStart="15dp"
+            android:src="@drawable/search"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginEnd="20dp"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:text="Sign up With Google"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/signUpBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="Sign Up"
+        android:textSize="18sp"
+        android:backgroundTint="@color/blue"
+        android:layout_marginTop="25dp"/>
+
+</LinearLayout>

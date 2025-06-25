@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Dailyne" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:fontFamily">@font/opensans</item>
+    </style>
+
+    <style name="Base.Theme.Dailyne2" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:fontFamily">@font/opensans</item>
+        <item name="android:background">@color/blue</item>
+    </style>
+
+    <style name="Theme.Dailyne" parent="Base.Theme.Dailyne" />
+</resources>
